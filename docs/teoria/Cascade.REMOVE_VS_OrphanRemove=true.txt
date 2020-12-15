@@ -1,0 +1,32 @@
+
+https://stackoverflow.com/questions/18813341/what-is-the-difference-between-cascade-and-orphan-removal-from-db
+
+Eliminar en cascada
+
+Marcar un campo de referencia con CascadeType.REMOVE (o CascadeType.ALL, que incluye REMOVE) indica que las operaciones de eliminación deben conectarse en cascada automáticamente a los objetos de entidad a los que hace referencia ese campo (un campo de colección puede hacer referencia a múltiples objetos de entidad):
+
+@Entity
+class Employee {
+     :
+    @OneToOne(cascade=CascadeType.REMOVE)
+    private Address address;
+     :
+}
+Retiro de huérfanos
+
+JPA 2 admite un modo de eliminación de cascada adicional y más agresivo que se puede especificar utilizando el elemento huérfanoRemoval de las anotaciones @OneToOne y @OneToMany:
+
+@Entity
+class Employee {
+     :
+    @OneToOne(orphanRemoval=true)
+    private Address address;
+     :
+}
+DIFERENCIA:-
+
+La diferencia entre las dos configuraciones está en la respuesta a la desconexión de una relación. Por ejemplo, como cuando se establece el campo de dirección en nulo o en otro objeto de Dirección.
+
+Si se especifica orphanRemoval = true, la instancia de dirección desconectada se elimina automáticamente. Esto es útil para limpiar objetos dependientes (por ejemplo, Dirección) que no deberían existir sin una referencia de un objeto propietario (por ejemplo, Empleado).
+Si solo se especifica cascade = CascadeType.REMOVE, no se realiza ninguna acción automática ya que desconectar una relación no es una
+operación de eliminación

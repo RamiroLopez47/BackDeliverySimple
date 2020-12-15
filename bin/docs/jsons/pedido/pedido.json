@@ -1,0 +1,23 @@
+{
+  "fecha": "2020-05-27T14:27:16.000+00:00",
+  "numero": 66,
+  "estado": "carrito",
+  "horaEstimdaFin": "2020-06-19T14:27:19.000+00:00",
+  "tipoEnvio": "delivery",
+  "detallesPedido": [
+    {
+      "subTotal": 77.02,
+      "cantidad": 82,
+      "plato": {
+        "id": 1
+      }
+    },
+    {
+      "subTotal": 99.02,
+      "cantidad": 82,
+      "plato": {
+        "id": 2
+      }
+    }
+  ]
+}

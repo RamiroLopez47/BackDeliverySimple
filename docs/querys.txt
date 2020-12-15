@@ -1,0 +1,39 @@
+Plato por categoria
+
+http://localhost:9001/api/v1/plato/byCategoria?categoria=pizza
+
+Articulo por categoria
+
+http://localhost:9001/api/v1/articulo/byCategoria?categoria=lacteos
+
+
+Query usuario general
+
+http://localhost:9001/api/v1/usuario/byEmail?email=cajero@gmail.com
+
+http://localhost:9001/api/v1/usuario/byEmail?email=cliente@gmail.com
+
+etc
+
+Query enviar email simple (incluir la palabra no en el valor del param nombreArchivo)
+
+POST
+http://localhost:9001/api/v1/factura/enviar?destinatario=pedroPicapiedra@gmail.com&asunto=Reuniones&mensaje=Buen Dia&idFactura=1&nombreArchivo=no
+
+Query enviar email con archivos adjuntos y link para descargar factura segun el id de la factura
+
+POST
+http://localhost:9001/api/v1/factura/enviar?destinatario=pedroPicapiedra@gmail.com&asunto=Meeets&mensaje=Buen Dia&idFactura=1&nombreArchivo=src/main/java/com/example/demo/hola.jpg
+
+Query pedidos entre fechas
+
+http://localhost:9001/api/v1/pedido/entre?fecha1=2020-06-01%2013:08:12&fecha2=2020-07-09%2016:48:03
+
+Query todos los platos y cantidad de tal plato de un cliente en cierto intervalo de fechas
+
+GET
+http://localhost:9001/api/v1/cliente/platos/cliente-unico?fechaInicio=20200601&fechaFin=20200809&email=pichon@gmail.com
+
+Query lista de lo anterior
+
+http://localhost:9001/api/v1/cliente/platos/lista-clientes?fechaInicio=20200601&fechaFin=20200809

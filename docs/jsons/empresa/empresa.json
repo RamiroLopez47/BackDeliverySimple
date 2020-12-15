@@ -1,0 +1,15 @@
+{
+  "nombre": "sabor",
+  "email": "buen",
+  "cocineros": [
+    {
+      "id": 3
+    },
+    {
+      "id": 2
+    }
+  ],
+  "cajero": {
+    "id": 1
+  }
+}

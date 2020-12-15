@@ -1,0 +1,29 @@
+{
+  "denominacion": "Pizza Especial",
+  "tiempoPreparacion": 15,
+  "imagen": "http://firebase/storage/pizza_especial.jpeg",
+  "precioVenta": 99.0,
+  "categoriaPlato": {
+    "id": 1
+  },
+  "detallePlato": [
+    {
+      "cantidad": 5,
+      "articulo": {
+        "id": 1
+      },
+      "medidaPlato": {
+        "id": 1
+      }
+    },
+    {
+      "cantidad": 9,
+      "articulo": {
+        "id": 2
+      },
+      "medidaPlato": {
+        "id": 2
+      }
+    }
+  ]
+}

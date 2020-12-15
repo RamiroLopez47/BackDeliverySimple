@@ -1,0 +1,11 @@
+{
+  "total": 199999.0,
+  "fecha": "2020-05-28T14:35:35.000+00:00",
+  "numero": 122,
+  "descuento": 115.0,
+  "formaPago": "1tarjeta",
+  "nroTarjeta": "12303i4",
+  "pedido": {
+    "id": 1
+  }
+}

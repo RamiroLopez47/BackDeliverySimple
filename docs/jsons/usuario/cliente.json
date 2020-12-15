@@ -1,0 +1,31 @@
+{
+  
+    "nombre": "cliente",
+    "apellido": "Gonzales",
+    "email": "gonza@gmail.com",
+    "telefono": 44444,
+    "password": "1234",
+    "domicilios": [
+        {
+ 
+            "calle": "Belgrano",
+            "departamento": "dpto",
+            "numero": 122,
+            "piso": 342,
+            "localidad": {
+                "id": 1
+
+            }
+        }
+    ],
+    "rol": {
+        "id": 3
+
+    },
+    "pedidos": [
+        {
+            "id": 2
+
+        }
+    ]
+}

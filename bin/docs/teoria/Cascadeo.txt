@@ -1,0 +1,11 @@
+CascadeType.PERSIST: Cuando una entidad es persistida, su entidad relacionada debe ser persistida también.
+
+CascadeType.REMOVE: Cuando una entidad es removida, su entidad relacionada debe ser removida también.
+
+CascadeType.REFRESH: Cuando una entidad es refrescada, su entidad relacionada debe ser refrescada también.
+
+CascadeType.MERGE: Cuando una entidad es actualizada, su entidad relacionada debe ser actualizada también.
+
+CascadeType.ALL: Cuando una entidad es persistida, removida, refrescada o actualizada, su entidad relacionada debe ser persistida, removida, refrescada o actualizada también.
+
+CascadeTye.DETACH: 	En esta operación en cascada, si la entidad principal está separada, entonces también se desconectará toda su entidad relacionada. (ni idea)

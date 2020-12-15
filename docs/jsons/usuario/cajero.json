@@ -1,0 +1,39 @@
+   {
+
+        "nombre": "Pedro",
+        "apellido": "PicaPiedra",
+        "email": "pedro@gmail.com",
+        "telefono": 5555,
+        "password": "12346",
+        "domicilios": [
+            {
+                "calle": "San Martin",
+                "departamento": "asdf",
+                "numero": 1234,
+                "piso": 234,
+                "localidad": {
+                    "id": 1
+
+
+                }
+            },
+            {
+                "calle": "Belgrano",
+                "departamento": "asdf",
+                "numero": 1234,
+                "piso": 234,
+                "localidad": {
+                    "id": 2
+
+
+                }
+            }
+        ],
+        "rol": {
+            "id": 2
+
+        },
+        "dni": 1234,
+        "fechaIngreso": "2020-06-03",
+        "estaActivo": true
+    }

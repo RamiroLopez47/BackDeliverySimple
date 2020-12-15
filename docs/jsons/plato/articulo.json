@@ -1,0 +1,17 @@
+    {
+        "denominacion": "Salsa de Tomate",
+        "descripcion": "Casera",
+        "stockMin": 200,
+        "stockMax": 500,
+        "stockActual": 300,
+        "esInsumo": true,
+        "imagen": "http://firebase.img",
+        "precioCompra": 10.0,
+        "precioVenta": 20.0,
+        "categoriaArticulo": {
+            "id": 1
+        },
+        "medidaArticulo": {
+            "id": 1
+    }
+    }

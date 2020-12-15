@@ -1,0 +1,20 @@
+1-Crear Articulos
+
+Para crear un articulo, tener alguna categoria y unidad de medida creadas, para poder relacionarlo con este.
+
+En el front seteandole el id de medida y categoria a los objetos de articulo se persiste.
+
+2-Crear Platos
+
+Seguir el paso anterior las veces necesarias.
+
+Crear alguna categoria Platos
+
+Crear una medida Platos
+
+Usar el json
+
+El postman responde con algunos datos null al hacer el post, pero si se hace un get se ven los datos
+
+Los detalles se eliminan al eliminar un plato, porque va en cascada, es un maestro detalle, composición.
+

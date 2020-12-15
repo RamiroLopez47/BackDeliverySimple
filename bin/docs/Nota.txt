@@ -1,0 +1,1 @@
+Al hacer las pruebas en postman por ej, procurar llenar todos los campos para evitar errores 500 de servidor
